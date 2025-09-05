@@ -121,12 +121,16 @@
     width: 100%;
     margin: 0 auto 20px;
     display: block;
+}
+
+.title_content{
     z-index: 1;
 }
 
 .title__shift_right{
     margin-left: 0.15em;
 }
+
 .title__shift_more_right{
     margin-left: 0.3em;
 }
@@ -138,6 +142,7 @@
     align-items: center; 
     z-index: 1;
 }
+
 .description_caption{
     padding-top: 5px;
 }
@@ -146,6 +151,7 @@
     padding: 12px 32px 11px 31px;
     border: 1px solid white;
     word-spacing: 0;
+    text-decoration: none;
 }
         /* lots */
 .lots {
@@ -214,6 +220,10 @@
     display: flex;
     flex-direction: column;
     gap:24px;
+ 
+    grid-column-start: -2;
+    grid-column-end: -1;
+
 }
 
 .about_logo{
